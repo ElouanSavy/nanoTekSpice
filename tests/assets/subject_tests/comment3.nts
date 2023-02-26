@@ -1,0 +1,14 @@
+#Hello
+.chipsets:
+input in_1
+input in_2
+output out
+xor gate
+#Hello
+
+.links:
+in_1:1 gate:1 #Hello
+# Hello
+in_2:1 gate:2
+out:1 gate:3
+#Hello

@@ -1,0 +1,13 @@
+.chipsets: #azeaz ze zae a
+input in_1
+input in_2#Hello
+output out
+xor gate
+
+.links:#azeaze zaea
+in_1:1 gate:1#Hello
+in_2:1 gate:2
+
+#aze aze azea
+#zeaze
+out:1 gate:3
