@@ -24,7 +24,7 @@ void redirect_all_std(void)
     cr_redirect_stderr();
 }
 
-Test(AndComponent_True_True, AndComponent, .init = redirect_all_std)
+Test(AndComponent_True_True, AndComponent, .init = redirect_all_std) //* Inverser les paramètres
 {
     std::unique_ptr<nts::IComponent> inputTrue = std::make_unique<nts::TrueComponent>();
     std::unique_ptr<nts::IComponent> inputFalse = std::make_unique<nts::FalseComponent>();

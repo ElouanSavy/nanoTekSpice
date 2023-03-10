@@ -65,10 +65,9 @@ void nts::JohnsonDecadeComponent::updateState()
         return;
     }
 
-    if (this->previousState_ == True) {
-        this->previousState_ = resultList[2];
+    if (resultList[2] == this->previousState_)
         return;
-    }
+    this->previousState_ = resultList[2];
 
     if (resultList[1] == True)
         return;
